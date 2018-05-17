@@ -1,0 +1,40 @@
+Recieved status code [200] for request :::http://localhost:8888/codeinsight/api/v1/agent/supports?projectName=PluginTest
+testConnection :::Success
+Recieved status code [200] for request :::http://localhost:8888/codeinsight/api/v1/agent/status?md5=8fdf7e6df72d7097913d206c90334ec2
+{"Content: ":"{\"update\":\"no\",\"md5\":\"8fdf7e6df72d7097913d206c90334ec2\",\"version\":\"1.0.0-130\"}"}
+Recieved status code [200] for request :::http://localhost:8888/codeinsight/api/v1/agent/supports?projectName=PluginTest
+Recieved status code [200] for request :::http://localhost:8888/codeinsight/api/v1/agent/status?md5=8fdf7e6df72d7097913d206c90334ec2
+{"Content: ":"{\"update\":\"no\",\"md5\":\"8fdf7e6df72d7097913d206c90334ec2\",\"version\":\"1.0.0-130\"}"}
+Recieved status code [200] for request :::http://localhost:8888/codeinsight/api/v1/agent/status?md5=8fdf7e6df72d7097913d206c90334ec2
+{"Content: ":"{\"update\":\"no\",\"md5\":\"8fdf7e6df72d7097913d206c90334ec2\",\"version\":\"1.0.0-130\"}"}
+***Initializing embedded scan with 1.0.0-130
+***Loaded EmbeddedScanner
+***Calling EmbeddedScanner
+10:46:41 INFO c.f.c.e.EmbeddedScanner Initializing scan..
+10:46:41 INFO c.f.c.AnalysisDriver Started analyzing C:\Users\epakhomov\hgtest\05, in execution context-> d3345adc-f394-4073-8c06-6e7e1e3bf124 using FNCA:1.0.0-130
+10:46:41 INFO c.f.c.ArtifactsStore Registering "C:\Users\epakhomov\hgtest\05" to scan.
+10:46:42 INFO c.f.c.lucene.Index Created index C:/Users/epakhomov/Documents/NetBeansProjects/CodeInsightMercurialPlugin/.codeaware/working_dir/d3345adc-f394-4073-8c06-6e7e1e3bf124/search_terms_index, 21 files indexed, 0 not indexed, 0 files had exceptions, 8 threads
+10:46:43 INFO c.f.c.AnalysisDriver Done analyzing C:\Users\epakhomov\hgtest\05, in execution context-> d3345adc-f394-4073-8c06-6e7e1e3bf124
+10:46:43 INFO c.f.c.e.EmbeddedScanner Done scanning..
+Scan Summary :::
+{
+  "totalPackages_lics": "0",
+  "totalPackages": "0",
+  "packages_noLics": [],
+  "packages_unknownLics": [],
+  "total_vulns": "0",
+  "totalPackages_vulns": "0",
+  "files": {
+    "sourceCount": 1,
+    "binaryCount": 0,
+    "mediaCount": 0,
+    "otherCount": 20,
+    "totalCount": 21
+  },
+  "packages_vulns": [],
+  "packages_knownLics": []
+}
+Recieved status code [200] for request :::http://localhost:8888/codeinsight/api/v1/importer/importInventory?projectName=PluginTest
+***Please check for results at http://localhost:8888
+***Done scanning
+scan results :::SUCCESS

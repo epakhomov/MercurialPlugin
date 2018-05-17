@@ -1,0 +1,9 @@
+//required
+codeinsight.server=http://localhost:8888
+codeinsight.auth.token=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTEzMjc4MTMxfQ.yojDqq8_BG-giBTMACuvrqplvpviNzUT1jwaKRhYBRzbrtRNbryesrr43G471kMZttaJmV1aUu4CK0Lk2P0ZCw
+codeinsight.project.name=PluginTest
+plugin.root.path=C:\\Eugene\\scanroot\\tutorial\\ePortal-1.3 
+//optional
+plugin.project.name=<plugin project name>
+plugin.project.description=<plugin project description>
+plugin.path.prefix=<logical workspace root, for eg. $demo_workspace/ >
